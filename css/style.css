@@ -1,1 +1,90 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  /*background-color: brown;*/
+  font-family: 'Arial', sans-serif;
+}
+
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 100px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Arial', serif;
+  font-size: 2em;
+  margin-top: 6px;
+  margin-bottom: 0;
+  line-height: .75;
+  color: black;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.dummy-text{
+	font-size: 19px;
+	margin: 20px;
+	background-color: grey;
+	border:  0px solid black;
+	color: black;
+	padding: 20px;
+	font-weight: bold;
+	text-align: justify;
+
+}
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+#title, h3
+{
+	margin-top: 0;
+	color: black ;
+	font-weight: bold;
+}
+
+hr 
+{
+	margin-top: 0;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    /*font-size: 4vw;  1vw = 1% of viewport width */ 
+
+  }
+
+  #collapsable-nav p{ /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: black;
+  }
+
+}
+
 

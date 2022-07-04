@@ -84,7 +84,9 @@ hr
     /*font-size: 4vw;  1vw = 1% of viewport width */ 
 
   }
-
+  #collapsable-nav{
+  	background-color: sandybrown;
+  }
   #collapsable-nav p{ /* Collapsed nav menu text */
     font-size: 1.2em;
     color: black;
